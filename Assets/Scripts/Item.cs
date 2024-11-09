@@ -16,6 +16,7 @@ public class Item : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 회전하는 코드입니다.
         transform.Rotate(Vector3.up * Time.deltaTime * _speed, Space.World);
     }
 
